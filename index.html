@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.top{
+			position: relative;
+			width: 1560px;
+			height: 30px;
+			margin: 0px auto;
+			background-color: rgb(244,244,244);
+			background-image: url(images/qq.gif);
+			background-repeat: no-repeat;
+			background-position: 330px 7px;
+		}
+		.top .shoucang{
+			display: inline;
+			position: absolute;
+			left: 180px;
+			line-height: 30px;
+			font-size: 12px;
+			text-decoration: none;
+			color: black;
+		}
+		.top .E{
+			display: inline;
+			position: absolute;
+			left: 242px;
+			line-height: 30px;
+			font-size: 12px;
+			text-decoration: none;
+			color: black;
+		}
+		.top .qq{
+			display: inline;
+			position: absolute;
+			left: 350px;
+			top: 7px;
+			font-size: 12px;
+		}
+		.top .saomiao{
+			text-decoration: none;
+			color: black;
+			position: absolute;
+			font-size: 12px;
+			top: 7px;
+			left: 1150px;
+		}
+		.top .huanying{
+			font-size: 12px;
+			display: inline;
+			position: absolute;
+			top: 7px;
+			left: 1210px;
+			color: black;
+		}
+		.top .denglu{
+			text-decoration: none;
+			color: black;
+			font-size: 12px;
+			position: absolute;
+			top: 7px;
+			left: 1310px;
+		}
+		.top .shu{
+			display: inline;
+			position: absolute;
+			top: 6px;
+			left: 1350px;
+			font-size: 12px;
+		}
+		.top .zhuce{
+			text-decoration: none;
+			color: black;
+			font-size:12px;
+			position: absolute;
+			top: 7px;
+			left: 1358px;
+		}
+		.logo{
+			position: relative;
+			width: 1560px;
+			height: 120px;
+			background-image: url(images/logo.gif);
+			background-repeat: no-repeat;
+			background-position: 181px 21px;
+		}
+		.logo .red{
+			position: absolute;
+			top: 41px;
+			left: 563px;
+			width: 405px;
+			height: 36px;
+			border-width: 3px ;
+			border-style: solid;
+			border-color: red;
+
+		}
+		.logo .shuru{
+			
+			width: 406px;
+			height: 36px;
+			border:none;
+		}
+		.logo .sousuo{
+			width: 93px;
+			height: 42px;
+			background-color: rgb(248,56,56);
+			position: relative;
+			top: -39px;
+			left: 408px;
+			border:none;
+			color: white;
+		}
+		.logo p{
+			font-size: 16px;
+			color: white;
+			position: relative;
+			top: 10px;
+			left: 30px;
+		}
+		.logo .tupian{
+			width: 150px;
+			height: 40px;
+			position: absolute;
+			top: 40px;
+			left: 1224px;
+		}
+		.daohang{
+			width: 1560px;
+			height: 43px;
+			border-bottom:solid;
+			border-bottom: solid rgb(248,56,56) 3px;
+		}
+		.daohang ul{
+			position: absolute;
+			left: 215px;
+			line-height: 43px;
+		}
+		.daohang li{
+			padding: 5px;
+			display: inline;
+			margin-right: 65px;
+		}
+		.daohang li:hover{
+			background-color: rgb(248,56,56);
+		}
+		.daohang li:hover a{
+			color: white;
+		}
+		.daohang a{
+			text-decoration: none;
+			color: black;
+		}
+		.big{
+			position: relative;
+			width: 1560px;
+			height: 654px;
+			background-color: rgb(251,251,251);
+		}
+		.big .weizhi{
+			position: absolute;
+			top: 28px;
+			left: 181px;
+			color: rgb(249,153,153);
+		}
+		.big .quanbu{
+			display: inline;
+			width: 215px;
+			height: 44px;
+			background-color: white;
+			position: absolute;
+			top: 66px;
+			left: 181px;
+			background-image: url(images/biaozhi.gif);
+			background-repeat: no-repeat;
+			background-position: 34px 13px;
+		}
+		.quanbu p{
+			font-size: 16px;
+			position: absolute;
+			top: 13px;
+			left: 75px;
+		}
+		.big .fenlei{
+			display: inline;
+			width: 215px;
+			height: 533px;
+			background-color: white;
+			position: absolute;
+			top: 120px;
+			left: 181px;
+		}
+		.fenlei a{
+			text-decoration: none;
+			color: black;
+			font-size: 14px;
+			display: block;
+			position: absolute;
+			left: 75px;
+		}
+		.fenlei .shipin{
+			position: absolute;
+			top: 20px;
+		}
+		.fenlei .shenghuo{
+			position: absolute;
+			top: 63px;
+		}
+		.fenlei a:hover{
+			color: red;
+		}
+		.pic{
+			background-color: white;
+			width: 972px;
+			height: 560px;
+			position: absolute;
+			left: 408px;
+			top: 65px;
+
+		}
+		.pic li{
+			display: inline;
+			margin-right: 5px;
+			margin-left: 10px; 
+
+
+		}
+		.blank{
+			height: 15px;
+		}
+		.pic ul{
+			position: absolute;
+			top: 13px;
+		}
+		.bottom{
+			position: relative;
+			width: 1560px;
+			height: 247px;
+			background-color: black;
+		}
+		.bottom .lianjie{
+			position: relative;
+			width: 1200px;
+			height: 152px;
+			margin: 0px auto;
+			border:solid 1px;
+			border-bottom-color: rgb(69,69,69);
+		}
+		.lianjie ul{
+			position: absolute;
+			left: 100px;
+			display: block;
+		}
+		.lianjie li{
+			display: inline;
+			margin-right: 150px;
+		}
+		.lianjie a{
+			text-decoration: none;
+			color: white;
+			
+		}
+		.lianjie .one{
+			font-size: 16px;
+		}
+		.finall{
+			width: 1560px;
+			height: 94px;
+			border:solid 1px;
+			position: relative;
+		}
+		.finall a,p{
+			text-decoration: none;
+			font-size: 14px;
+			color: rgb(158,158,158);
+		}
+		.finall .banquan{
+			font-size: 14px;
+			position: absolute;
+			top: 63px;
+			left: 505px;
+		}
+	</style>
+</head>
+<body >
+	<div class="top">
+		<a href="#" class="shoucang">我的收藏</a>
+		<a href="#" class="E">E族之家手机版</a>
+		<p class="qq" style="color: black;">32803328</p>
+		<a href="#" class="saomiao">扫描加入</a>
+		<p class="huanying">欢迎来到E族之家，</p>
+		<a href="#" class="denglu">请登录</a>
+		<p class="shu">|</p>
+		<a href="#" class="zhuce">注册</a>
+	</div>
+	<div class="logo">
+		<div class="red">
+			<form>
+				<input type="text" name="shuru" value="   请输入关键词!" class="shuru" style="color: rgb(193,193,193);font-size: 14px">
+				<input type="button" name="sou" value="搜索" class="sousuo">
+			</form>
+		</div>
+		
+		<div class="tupian"><a href="#"><img src="images/gouwu.gif"></a></div>
+
+	</div>
+	<div class="daohang">
+		<ul>
+			<li><a href="#" >首页</a></li>
+			<li><a href="#" >E族生活</a></li>
+			<li><a href="#" >E族服务</a></li>
+			<li><a href="#" >E族爱心</a></li>
+		</ul>
+	</div>
+	<div class="big">
+		<p class="weizhi">当前位置：E族爱心>食品</p>
+		<div class="quanbu">
+			<p>全部分类</p>
+		</div>
+		<div class="fenlei">
+			<a href="#" class="shipin">>食品</a>
+			<a href="#" class="shenghuo">>生活用品</a>
+		</div>
+		<div class="pic">
+			<ul>
+				<li><a href="#"><img src="images/1.gif"></a></li>
+				<li><a href="#"><img src="images/2.gif"></a></li>
+				<li><a href="#"><img src="images/3.gif"></a></li>
+				<li><a href="#"><img src="images/4.gif"></a></li>
+				<div class="blank"></div>
+				<li><a href="#"><img src="images/1.gif"></a></li>
+				<li><a href="#"><img src="images/2.gif"></a></li>
+				<li><a href="#"><img src="images/3.gif"></a></li>
+				<li><a href="#"><img src="images/4.gif"></a></li>
+
+			</ul>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="lianjie">
+			
+				<ul style="position: absolute;top: 20px;">
+					<li><a href="#" class="one">新手上路</a></li>
+					<li><a href="#" class="one">配送方式</a></li>
+					<li><a href="#" class="one">购物指南</a></li>
+					<li><a href="#" class="one">售后服务</a></li>
+					<li><a href="#" class="one">关于我们</a></li>
+				</ul>
+			
+			
+				<ul style="position: absolute;top: 55px;font-size: 15px;">
+					<li style="margin-right: 153px;"><a href="#">售后流程</a></li>
+					<li style="margin-right: 125px;"><a href="#" >货到付款区域</a></li>
+					<li style="margin-right: 153px;"><a href="#">常见问题</a></li>
+					<li style="margin-right: 140px;"><a href="#">退换货原则</a></li>
+					<li style="margin-right: 0px;"><a href="#">网站故障报告</a></li>
+				</ul>
+				<ul style="position: absolute;top: 86px;font-size: 15px;">
+					<li style="margin-right: 155px;"><a href="#">购物流程</a></li>
+					<li style="margin-right: 123px;"><a href="#">配送支付查询</a></li>
+					<li style="margin-right: 153px;"><a href="#">订购流程</a></li>
+					<li style="margin-right: 125px;"><a href="#">售后服务保证</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<ul style="position: absolute;top: 116px;font-size: 15px;">
+					<li style="margin-right: 154px;"><a href="">订购方式</a></li>
+					<li style="margin-right: 125px;"><a href="">支付方式说明</a></li>
+					<li style="margin-right: 138px;"><a href="">注册新会员</a></li>
+					<li style="margin-right: 153px;"><a href="">换货流程</a></li>
+					<li><a href="">投诉与建议</a></li>
+				</ul>
+		
+		</div>
+		<div class="finall">
+			<a href="#" style="position: absolute;left: 509px;top: 27px;">E族生活</a>
+			<p style="position: absolute;top: 27px;left: 567px">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 579px;">居家维修保养</a>
+			<p style="position: absolute;top: 27px;left: 671px;">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 683px;">住宿优惠信息</a>
+			<p style="position: absolute;top: 27px;left: 775px">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 787px;">出行接送</a>
+			<p style="position: absolute;top: 27px;left: 851px">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 863px;">E族活动</a>
+			<p style="position: absolute;top: 27px;left: 921px">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 932px;">E族爱心</a>
+			<p style="position: absolute;top: 27px;left: 990px">|</p>
+			<a href="#" style="position: absolute;top: 27px;left: 1002px;">积分商城</a>
+			<p class="banquan">©&nbsp;2017-2018&nbsp;E族之家&nbsp;版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+		</div>
+	</div>
+
+</body>
+</html>
