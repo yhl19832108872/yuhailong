@@ -7,7 +7,12 @@
 			padding: 0px;
 			margin: 0px;
 		}
-		.top{
+		.topoutside{
+			width: 100%;
+			height: 30px;
+			background-color: rgb(244,244,244);
+		}
+		.topinside{
 			position: relative;
 			width: 1200px;
 			height: 30px;
@@ -17,14 +22,14 @@
 			background-repeat: no-repeat;
 			background-position: 153px 7px;
 		}
-		.top .shoucang{
+		.topinside .shoucang{
 			display: inline;
 			line-height: 30px;
 			font-size: 12px;
 			text-decoration: none;
 			color: black;
 		}
-		.top .E{
+		.topinside .E{
 			display: inline;
 			position: absolute;
 			left: 62px;
@@ -33,14 +38,14 @@
 			text-decoration: none;
 			color: black;
 		}
-		.top .qq{
+		.topinside .qq{
 			display: inline;
 			position: absolute;
 			left: 172px;
 			top: 7px;
 			font-size: 12px;
 		}
-		.top .saomiao{
+		.topinside .saomiao{
 			text-decoration: none;
 			color: black;
 			position: absolute;
@@ -48,7 +53,7 @@
 			top: 7px;
 			left: 969px;
 		}
-		.top .huanying{
+		.topinside .huanying{
 			font-size: 12px;
 			display: inline;
 			position: absolute;
@@ -56,7 +61,7 @@
 			left: 1028px;
 			color: black;
 		}
-		.top .denglu{
+		.topinside .denglu{
 			text-decoration: none;
 			color: black;
 			font-size: 12px;
@@ -64,14 +69,14 @@
 			top: 7px;
 			left: 1131px;
 		}
-		.top .shu{
+		.topinside .shu{
 			display: inline;
 			position: absolute;
 			top: 6px;
 			left: 1170px;
 			font-size: 12px;
 		}
-		.top .zhuce{
+		.topinside .zhuce{
 			text-decoration: none;
 			color: black;
 			font-size:12px;
@@ -129,6 +134,13 @@
 			top: 40px;
 			left: 1046px;
 		}
+		.daohangoutside{
+			width: 100%;
+			height: 43px;
+			border-bottom-style:solid;
+			border-bottom-color: rgb(248,56,56);
+			border-bottom-width: 3px;
+		}
 		.daohang{
 			width: 1200px;
 			height: 43px;
@@ -156,6 +168,11 @@
 			text-decoration: none;
 			color: black;
 		}
+		.bigoutside{
+			width: 100%;
+			height: 654px;
+			background-color: rgb(251,251,251);
+		}
 		.big{
 			position: relative;
 			width: 1200px;
@@ -177,7 +194,7 @@
 			background-color: white;
 			position: absolute;
 			top: 66px;
-			left: 4px;
+			left: 0px;
 			background-image: url(images/biaozhi.gif);
 			background-repeat: no-repeat;
 			background-position: 34px 13px;
@@ -196,7 +213,7 @@
 			background-color: white;
 			position: absolute;
 			top: 120px;
-			left: 4px;
+			left: 0px;
 			border: rgb(251,251,251) 3px;
 		}
 		.fenlei a{
@@ -223,8 +240,8 @@
 			width: 972px;
 			height: 560px;
 			position: absolute;
-			left: 228px;
-			top: 65px;
+			left: 400px;
+			top: 263px;
 
 		}
 		.pic li{
@@ -240,6 +257,11 @@
 		.pic ul{
 			position: absolute;
 			top: 13px;
+		}
+		.bottomoutside{
+			width: 100%;
+			height: 247px;
+			background-color: black;
 		}
 		.bottom{
 			position: relative;
@@ -293,15 +315,17 @@
 	</style>
 </head>
 <body >
-	<div class="top">
-		<a href="#" class="shoucang">我的收藏</a>
-		<a href="#" class="E">E族之家手机版</a>
-		<p class="qq" style="color: black;">32803328</p>
-		<a href="#" class="saomiao">扫描加入</a>
-		<p class="huanying">欢迎来到E族之家，</p>
-		<a href="#" class="denglu">请登录</a>
-		<p class="shu">|</p>
-		<a href="#" class="zhuce">注册</a>
+	<div class="topoutside">
+		<div class="topinside">
+			<a href="#" class="shoucang">我的收藏</a>
+			<a href="#" class="E">E族之家手机版</a>
+			<p class="qq" style="color: black;">32803328</p>
+			<a href="#" class="saomiao">扫描加入</a>
+			<p class="huanying">欢迎来到E族之家，</p>
+			<a href="#" class="denglu">请登录</a>
+			<p class="shu">|</p>
+			<a href="#" class="zhuce">注册</a>
+		</div>
 	</div>
 	<div class="logo">
 		<div class="red">
@@ -314,23 +338,27 @@
 		<div class="tupian"><a href="#"><img src="images/gouwu.gif"></a></div>
 
 	</div>
-	<div class="daohang">
-		<ul>
-			<li><a href="#" >首页</a></li>
-			<li><a href="#" >E族生活</a></li>
-			<li><a href="#" >E族服务</a></li>
-			<li><a href="#" >E族爱心</a></li>
-		</ul>
+	<div class="daohangoutside">
+		<div class="daohang">
+			<ul>
+				<li><a href="#" >首页</a></li>
+				<li><a href="#" >E族生活</a></li>
+				<li><a href="#" >E族服务</a></li>
+				<li><a href="#" >E族爱心</a></li>
+			</ul>
+		</div>
 	</div>
-	<div class="big">
-		<p class="weizhi">当前位置：E族爱心>食品</p>
-		<div class="quanbu">
-			<p>全部分类</p>
+	<div class="bigoutside">
+		<div class="big">
+			<p class="weizhi">当前位置：E族爱心>食品</p>
+			<div class="quanbu">
+				<p>全部分类</p>
+			</div>
+			<div class="fenlei">
+				<a href="#" class="shipin">>食品</a>
+				<a href="#" class="shenghuo">>生活用品</a>
 		</div>
-		<div class="fenlei">
-			<a href="#" class="shipin">>食品</a>
-			<a href="#" class="shenghuo">>生活用品</a>
-		</div>
+	</div>
 		<div class="pic">
 			<ul>
 				<li><a href="#"><img src="images/1.gif"></a></li>
@@ -346,58 +374,60 @@
 			</ul>
 		</div>
 	</div>
-	<div class="bottom">
-		<div class="lianjie">
-			
-				<ul style="position: absolute;top: 20px;">
-					<li><a href="#" class="one">新手上路</a></li>
-					<li><a href="#" class="one">配送方式</a></li>
-					<li><a href="#" class="one">购物指南</a></li>
-					<li style="margin-right: 200px"><a href="#" class="one">售后服务</a></li>
-					<li style="margin-right: 0px"><a href="#" class="one" >关于我们</a></li>
-				</ul>
-			
-			
-				<ul style="position: absolute;top: 55px;font-size: 14px;">
-					<li style="margin-right: 216px;"><a href="#">售后流程</a></li>
-					<li style="margin-right: 189px;"><a href="#" >货到付款区域</a></li>
-					<li style="margin-right: 218px;"><a href="#">常见问题</a></li>
-					<li style="margin-right: 193px;"><a href="#">退换货原则</a></li>
-					<li style="margin-right: 0px;"><a href="#">网站故障报告</a></li>
-				</ul>
-				<ul style="position: absolute;top: 86px;font-size: 14px;">
-					<li style="margin-right: 217px;"><a href="#">购物流程</a></li>
-					<li style="margin-right: 188px;"><a href="#">配送支付查询</a></li>
-					<li style="margin-right: 218px;"><a href="#">订购流程</a></li>
-					<li style="margin-right: 180px;"><a href="#">售后服务保证</a></li>
-					<li style="margin-right: 0px"><a href="#">联系我们</a></li>
-				</ul>
-				<ul style="position: absolute;top: 116px;font-size: 14px;">
-					<li style="margin-right: 217px;"><a href="">订购方式</a></li>
-					<li style="margin-right: 188px;"><a href="">支付方式说明</a></li>
-					<li style="margin-right: 206px;"><a href="">注册新会员</a></li>
-					<li style="margin-right: 205px;"><a href="">换货流程</a></li>
-					<li style="margin-right: 0px;"><a href="">投诉与建议</a></li>
-				</ul>
-			
-		</div>
-		<div class="finall">
-			
-				<a href="#" style="position: absolute;left: 329px;top: 27px;">E族生活</a>
-				<p style="position: absolute;top: 27px;left: 387px">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 399px;">居家维修保养</a>
-				<p style="position: absolute;top: 27px;left: 671px;">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 503px;">住宿优惠信息</a>
-				<p style="position: absolute;top: 27px;left: 595px">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 607px;">出行接送</a>
-				<p style="position: absolute;top: 27px;left:671px">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 683px;">E族活动</a>
-				<p style="position: absolute;top: 27px;left: 741px">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 752px;">E族爱心</a>
-				<p style="position: absolute;top: 27px;left: 810px">|</p>
-				<a href="#" style="position: absolute;top: 27px;left: 822px;">积分商城</a>
-				<p class="banquan">©&nbsp;2017-2018&nbsp;E族之家&nbsp;版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
-			
+	<div class="bottomoutside">
+		<div class="bottom">
+			<div class="lianjie">
+				
+					<ul style="position: absolute;top: 20px;">
+						<li><a href="#" class="one">新手上路</a></li>
+						<li><a href="#" class="one">配送方式</a></li>
+						<li><a href="#" class="one">购物指南</a></li>
+						<li style="margin-right: 200px"><a href="#" class="one">售后服务</a></li>
+						<li style="margin-right: 0px"><a href="#" class="one" >关于我们</a></li>
+					</ul>
+				
+				
+					<ul style="position: absolute;top: 55px;font-size: 14px;">
+						<li style="margin-right: 216px;"><a href="#">售后流程</a></li>
+						<li style="margin-right: 189px;"><a href="#" >货到付款区域</a></li>
+						<li style="margin-right: 218px;"><a href="#">常见问题</a></li>
+						<li style="margin-right: 193px;"><a href="#">退换货原则</a></li>
+						<li style="margin-right: 0px;"><a href="#">网站故障报告</a></li>
+					</ul>
+					<ul style="position: absolute;top: 86px;font-size: 14px;">
+						<li style="margin-right: 217px;"><a href="#">购物流程</a></li>
+						<li style="margin-right: 188px;"><a href="#">配送支付查询</a></li>
+						<li style="margin-right: 218px;"><a href="#">订购流程</a></li>
+						<li style="margin-right: 180px;"><a href="#">售后服务保证</a></li>
+						<li style="margin-right: 0px"><a href="#">联系我们</a></li>
+					</ul>
+					<ul style="position: absolute;top: 116px;font-size: 14px;">
+						<li style="margin-right: 217px;"><a href="">订购方式</a></li>
+						<li style="margin-right: 188px;"><a href="">支付方式说明</a></li>
+						<li style="margin-right: 206px;"><a href="">注册新会员</a></li>
+						<li style="margin-right: 205px;"><a href="">换货流程</a></li>
+						<li style="margin-right: 0px;"><a href="">投诉与建议</a></li>
+					</ul>
+				
+			</div>
+			<div class="finall">
+				
+					<a href="#" style="position: absolute;left: 329px;top: 27px;">E族生活</a>
+					<p style="position: absolute;top: 27px;left: 387px">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 399px;">居家维修保养</a>
+					<p style="position: absolute;top: 27px;left: 671px;">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 503px;">住宿优惠信息</a>
+					<p style="position: absolute;top: 27px;left: 595px">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 607px;">出行接送</a>
+					<p style="position: absolute;top: 27px;left:671px">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 683px;">E族活动</a>
+					<p style="position: absolute;top: 27px;left: 741px">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 752px;">E族爱心</a>
+					<p style="position: absolute;top: 27px;left: 810px">|</p>
+					<a href="#" style="position: absolute;top: 27px;left: 822px;">积分商城</a>
+					<p class="banquan">©&nbsp;2017-2018&nbsp;E族之家&nbsp;版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+				
+			</div>
 		</div>
 	</div>
 
